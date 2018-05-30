@@ -1,0 +1,10 @@
+{
+	"port": 8001, 
+	"repositories": 
+	[{
+		"url": "Sect0R/git-autodeploy", 
+		"path": "/var/www/autodeploy",
+		"branch": "master",
+		"deploy": "sh ~/autodeploy.sh"
+	}]
+}
