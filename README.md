@@ -1,0 +1,2 @@
+# git-autodeploy
+A server that allows you to automatically deploy the latest version of your github project at each git push
