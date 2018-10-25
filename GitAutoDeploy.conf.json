@@ -2,8 +2,8 @@
 	"port": 8001,
 	"repositories": [
 		{
-			"url": "Sect0R/git-autodeploy",
-			"path": "/var/www/autodeploy",
+			"url": "github-login/repository",
+			"path": "cd_path",
 			"branch": "master",
 			"deploy": "sh ~/autodeploy_yii2.sh"
 		}
