@@ -5,9 +5,9 @@ It allows you to have a version of your project installed, that will be updated 
 
 #### Setup on server
  1. install python
- 2. Edit config file "GitAutoDeploy.conf.json" - you can add unlimited repositories for one daemon
- 3. start the server by typing "python GitAutoDeploy.py"
- 4. to run it as a daemon add **--daemon-mode**
+ 2. Edit config file "gitdeploy.conf.json" - you can add unlimited repositories for one daemon
+ 3. start the server by typing "python gitdeploy.py"
+ 4. to run it as a daemon add **--daemon-mode** (Example: `python gitdeploy.py --daemon-mode`)
 
 #### Setup on GitHub
  1. Go to a repository
