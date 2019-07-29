@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# to run it as a daemon add --daemon-mode
+# note: run like 'nohup python gitdeploy.py --daemon-mode > gitdeploy.log'
+
 import json, urlparse, sys, os
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 from subprocess import call
